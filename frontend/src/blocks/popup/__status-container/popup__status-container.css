@@ -1,0 +1,8 @@
+.popup__status-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+}
