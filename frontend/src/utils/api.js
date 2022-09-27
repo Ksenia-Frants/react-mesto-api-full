@@ -92,7 +92,7 @@ class Api {
 }
 
 const api = new Api({
-  url: "http://api.frants.mesto.nomoredomains.sbs/"
+  url: "https://api.frants.mesto.nomoredomains.sbs/"
 });
 
 export default api;

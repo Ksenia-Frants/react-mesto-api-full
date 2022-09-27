@@ -18,7 +18,15 @@ mongoose.connect('mongodb://localhost:27017/mestodb', {
   useNewUrlParser: true,
 });
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    'https://frants.mesto.nomoredomains.sbs',
+    'http://frants.mesto.nomoredomains.sbs',
+    'https://localhost:3001',
+    'http://localhost:3001',
+  ],
+  credentials: true,
+}));
 
 app.use(helmet());
 
