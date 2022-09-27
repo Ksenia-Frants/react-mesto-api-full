@@ -6,5 +6,9 @@
 **Как подключиться:**
 
 * IP-адрес сервера: 51.250.85.221;
-* Frontend: [https://frants.mesto.nomoredomains.sbs];
+* Frontend: https://frants.mesto.nomoredomains.sbs;
 * Backend: https://api.frants.mesto.nomoredomains.sbs;
+
+## Ссылка на репозиторий: 
+
+https://github.com/Ksenia-Frants/react-mesto-api-full
